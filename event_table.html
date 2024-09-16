@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ACS</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      table {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        border-radius: 8px;
+      }
+
+      th,
+      td {
+        padding: 15px;
+        text-align: center;
+      }
+
+      th {
+        background-color: #007bff;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 14px;
+      }
+
+      td {
+        font-size: 16px;
+        color: #333;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      tr:hover {
+        background-color: #e9f1ff;
+      }
+
+      td[colspan="2"] {
+        text-align: left;
+      }
+
+      td,
+      th {
+        border-bottom: 1px solid #ddd;
+      }
+
+      /* Add responsive design for smaller screens */
+      @media (max-width: 600px) {
+        table,
+        th,
+        td {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Upcoming ACS Events</h1>
+    <table>
+      <tr>
+        <th>Event Name</th>
+        <th colspan="2">Event Details</th>
+        <th>Date</th>
+        <th>Location</th>
+      </tr>
+      <tr>
+        <td>Typing Competition</td>
+        <td colspan="2">
+          Competition to find the fastest person to type within a minute
+        </td>
+        <td>September 13, 2024</td>
+        <td>MTC-2, IT BLDG</td>
+      </tr>
+      <tr>
+        <td>Programming Contest</td>
+        <td colspan="2">
+          Competition to program different problems with increasing difficulty
+        </td>
+        <td>September 13, 2024</td>
+        <td>NIT-3, NEW IT BLDG</td>
+      </tr>
+      <tr>
+        <td>Hack4Gov Palsu Group Stage</td>
+        <td colspan="2">
+          Capture the flag style competition involving cryptography,
+          steganography, OSINT, networks, forensics, and web exploit problems
+        </td>
+        <td>October 4, 2024</td>
+        <td>NIT-3, NEW IT BLDG</td>
+      </tr>
+    </table>
+  </body>
+</html>
