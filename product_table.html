@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPU Sales Data</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        margin: 0;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #333;
+      }
+
+      table {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        padding: 12px 20px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #007bff;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 1px;
+        border-bottom: 2px solid #0056b3;
+      }
+
+      td {
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+
+      tfoot {
+        font-weight: bold;
+        background-color: #007bff;
+        color: #fff;
+      }
+
+      tfoot td {
+        border-top: 2px solid #0056b3;
+      }
+
+      tbody tr:hover {
+        background-color: #f1f1f1;
+      }
+
+      @media (max-width: 600px) {
+        table,
+        th,
+        td {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GPU Sales Data</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Brand</th>
+          <th>Units Sold</th>
+          <th>Revenue ($)</th>
+          <th>Market Share (%)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>NVIDIA</td>
+          <td>8,500,000</td>
+          <td>10,500,000,000</td>
+          <td>65%</td>
+        </tr>
+        <tr>
+          <td>AMD</td>
+          <td>3,000,000</td>
+          <td>3,600,000,000</td>
+          <td>22%</td>
+        </tr>
+        <tr>
+          <td>Intel</td>
+          <td>1,500,000</td>
+          <td>1,800,000,000</td>
+          <td>13%</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total:</td>
+          <td>13,000,000</td>
+          <td>15,900,000,000</td>
+          <td>100%</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
